@@ -349,4 +349,11 @@ body {
     transform: translateY(105%);
 }
 
+.cursor{
+    transition: 0.4s;
+}
 
+.cursor:hover{
+    cursor: pointer;
+    color: #6f6f72;
+}
