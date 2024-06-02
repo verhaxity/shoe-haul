@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Shoe Haul™</title>
+  </head>
+  <body>
+    <!-- Grid layout overlay -->
+    <div class="overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+      <a href="#" class="navigation__logo">
+        <span class="navigation__logo--text" id="js-slide-up">shoe haul™ </span>
+      </a>
+
+      <p class="navigation__time">
+        <span class="navigation__time--text" id="js-slide-up"
+          >srinagar , <span>kashmir.</span></span
+        >
+      </p>
+
+      <ul class="navigation__list">
+        <li class="navigation__list--item">
+          <a href="https://www.instagram.com/shoe.ehaul/" id="js-slide-up"
+            >products.</a
+          >
+        </li>
+      </ul>
+
+      <ul class="navigation__list">
+        <li class="navigation__list--item">
+          <a href="https://www.instagram.com/shoe.ehaul/" id="js-slide-up"
+            >about.</a
+          >
+        </li>
+        <li class="navigation__list--item">
+          <a href="https://www.instagram.com/shoe.ehaul/" id="js-slide-up"
+            >instagram.</a
+          >
+        </li>
+        <li class="navigation__list--item">
+          <a href="https://www.instagram.com/shoe.ehaul/" id="js-slide-up"
+            >order now.</a
+          >
+        </li>
+      </ul>
+
+      <button class="navigation__button">menu</button>
+    </nav>
+
+    <!-- Main content -->
+    <main class="wrapper">
+      <section class="container">
+        <h1 class="container__heading1">
+          <span class="heading__line">
+            <span id="js-slide-up">Discover Your Next Favorite Pair at</span>
+          </span>
+
+          <span class="heading__line">
+            <span id="js-slide-up">Shoe Haul.</span>
+          </span>
+        </h1>
+
+        <div class="container__video">
+          <div class="video__wrapper">
+            <button class="video__button">
+              <span id="js-slide-up">since</span>
+            </button>
+            <div class="video">
+              <video
+                src="shoehaul-vid.mp4"
+                muted
+                playsinline
+                loop
+                autoplay
+              ></video>
+            </div>
+            <p class="video__duration">
+              <span id="js-slide-up">2020</span>
+            </p>
+          </div>
+        </div>
+
+        <h2 class="container__heading2">
+          <span class="heading__line">
+            <span id="js-slide-up">Trendy. Comfortable. You.</span>
+          </span>
+
+          <span class="heading__line">
+            <span id="js-slide-up" onclick="insta()"><a>@SHOEHAUL - 2024</span>
+          </span>
+        </h2>
+      </section>
+    </main>
+
+    <!-- Preloader Text -->
+    <p class="preloader__text">
+      <span id="js-slide-up">SHOE HAUL™ <br /></span>
+    </p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
